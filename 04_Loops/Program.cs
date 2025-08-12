@@ -84,8 +84,74 @@ namespace _04_Loops
             //}
             //Console.WriteLine(count);
 
+            #endregion
 
-            //DK -20:54-
+            #region Örnek
+
+            //int bacterium = 1;
+            //for (int i = 1; i <= 24; i++)
+            //{
+            //    bacterium *= 2;
+            //    Console.WriteLine(i+ " . Saatin sonunda : " + bacterium);
+            //}
+
+            #endregion
+
+            #region While Döngüsü
+
+            //While(Şart)
+            //{ işlemler }
+
+            //int i = 1;
+
+            //while (i<=10)
+            //{
+            //    Console.WriteLine("Hello Loops");
+            //    i++; 
+            //}
+
+            //int i = 1; 
+            //while (i <=10)
+            //{
+            //    if (i%3==0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //    i++;
+            //}
+
+            //int i = 1;
+            //int sum = 0;
+
+            //while (i<=10)
+            //{
+            //    sum += i;
+            //    i++;
+            //}
+            //Console.WriteLine(sum);
+
+            #endregion
+
+            #region Örnek sınav sorusu
+
+            //Klavyeden girilen 3 basamaklı sayının basamaklarının toplamını hesaplayan kodu yazınız.
+
+            //456s
+
+            Console.Write("Sayıyı Giriniz : ");
+            int number = int.Parse(Console.ReadLine());
+            int ones, tens, hundreds;
+            int sum;
+
+            ones = number % 10;
+            tens = (number % 100) / 10;
+            hundreds = number / 100; //4.56 --> 4
+
+            Console.WriteLine(hundreds + "-" + tens + "-" + ones);
+
+            sum = ones+tens+hundreds;
+
+            Console.WriteLine("Basamakların Toplamı : " + sum);
 
             #endregion
 

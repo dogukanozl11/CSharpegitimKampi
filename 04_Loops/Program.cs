@@ -138,20 +138,20 @@ namespace _04_Loops
 
             //456s
 
-            Console.Write("Sayıyı Giriniz : ");
-            int number = int.Parse(Console.ReadLine());
-            int ones, tens, hundreds;
-            int sum;
+            //Console.Write("Sayıyı Giriniz : ");
+            //int number = int.Parse(Console.ReadLine());
+            //int ones, tens, hundreds;
+            //int sum;
 
-            ones = number % 10;
-            tens = (number % 100) / 10;
-            hundreds = number / 100; //4.56 --> 4
+            //ones = number % 10;
+            //tens = (number % 100) / 10;
+            //hundreds = number / 100; //4.56 --> 4
 
-            Console.WriteLine(hundreds + "-" + tens + "-" + ones);
+            //Console.WriteLine(hundreds + "-" + tens + "-" + ones);
 
-            sum = ones+tens+hundreds;
+            //sum = ones+tens+hundreds;
 
-            Console.WriteLine("Basamakların Toplamı : " + sum);
+            //Console.WriteLine("Basamakların Toplamı : " + sum);
 
             #endregion
 
